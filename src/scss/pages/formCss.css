@@ -1,0 +1,110 @@
+body{
+	margin:0;
+	padding: 0;
+   	display: flex;
+    	align-content: center;
+}
+
+.form {
+    width: 100%;
+    height: 100vh;
+    background: url(form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    display: inline-table;
+    width: 100%;
+    height: 20vh;
+    background: url(form-title.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    text-align: center;
+}
+
+.form-head {
+    background: rgba(255,255,255,0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.form-head h2{
+	margin-top: 0;
+	font-family: 'Dosis', sans-serif;
+	font-size: 50px;
+    padding-top: 50px;
+}
+
+p {
+    margin-top: 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.form-info {
+    width: auto;
+    height: 60vh;
+    background: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: center;
+}
+
+.form-info form{
+	display: flex;
+	flex-direction: row;
+	justify-content: center ;
+	width: 40%;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+
+.form-info input{
+	display: block;
+	width: 100%;
+	height: 10%;
+ 	border: none;
+  	border-bottom: 2px solid gray;
+  	background: none;
+  	font-family: 'Lora', serif;
+  	font-size: 16px;
+        text-align: center;
+}
+
+.form-info textarea{
+	display: block;
+    	width: 100%;
+    	border: 2px solid gray;
+    	background: none;
+    	margin-bottom: 20px;
+    	resize: none;
+    	font-family: 'Lora', serif;
+    	font-size: 16px;
+    	text-align: center;
+}
+
+#contact-btn{
+	width: 250px;
+    	height: 50px;
+    	border: 1px solid gray;
+    	margin-top: 10px;
+    	border-radius: 90px;
+    	text-align: center;
+    	justify-content: center;
+}
+
+#contact-btn:hover{
+	background: black;
+	color: white;
+}
