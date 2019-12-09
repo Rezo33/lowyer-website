@@ -4,12 +4,12 @@ body{
 	display: flex;
 	align-items: flex-end;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 }
 
 footer{
 	height: 30vh;
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -17,7 +17,7 @@ footer{
 
 .contacts{
 	min-height: 30vh;
-	min-width: 30vw;
+	width: 30%;
 	background: url("contacte.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -26,24 +26,24 @@ footer{
 }
 .contacts-opacity{
 	height: 30vh;
-	width: 30vw;
+	width: 100%;
 	background-color: rgba(0,0,0,0.5);
 }
 
 .contacts-details{
-	padding-top: 100px;
 	height: 30vh;
-	width: 30vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	color: white;
+	justify-content: center;
 }
 
 
 .follow{
 	min-height: 30vh;
-	min-width: 25vw;
+	width: 25%;
 	background: url("follow-us.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -53,24 +53,24 @@ footer{
 
 .follow-opacity{
 	height: 30vh;
-	width: 25vw;
+	width: 100%;
 	background-color: rgba(0,0,0,0.4);
 }
 
 .follow-details{
-	padding-top: 100px;
 	height: 30vh;
-	width: 25vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	color: white;
+	justify-content: center;
 }
 
 
 .schedule{
 	min-height: 30vh;
-	min-width: 45vw;
+	width: 45%;
 	background: url("schedule.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -79,26 +79,26 @@ footer{
 
 .schedule-opacity{
 	height: 30vh;
-	width: 45vw;
+	width: 100%;
 	background-color: rgba(0,0,0,0.4);
 }
 
 .schedule-details{
-	padding-top: 100px;
 	height: 30vh;
-	width: 45vw;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 	color: white;
 	padding-left: 30px;
+	justify-content: center;
 }
 
 .orar{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	width: 20vw;
-	border-bottom: 1px solid rgba(128,128,128,0.2);
+	width: 60%;
+	border-bottom: 1px solid rgba(128,128,128,0.8);
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
