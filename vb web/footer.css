@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: flex-end;
+	height: 100vh;
+	width: 100vw;
+}
+
+footer{
+	height: 30vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.contacts{
+	min-height: 30vh;
+	min-width: 30vw;
+	background: url("contacte.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+
+}
+.contacts-opacity{
+	height: 30vh;
+	width: 30vw;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.contacts-details{
+	padding-top: 100px;
+	height: 30vh;
+	width: 30vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+
+
+.follow{
+	min-height: 30vh;
+	min-width: 25vw;
+	background: url("follow-us.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+
+}
+
+.follow-opacity{
+	height: 30vh;
+	width: 25vw;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.follow-details{
+	padding-top: 100px;
+	height: 30vh;
+	width: 25vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+
+
+.schedule{
+	min-height: 30vh;
+	min-width: 45vw;
+	background: url("schedule.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.schedule-opacity{
+	height: 30vh;
+	width: 45vw;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.schedule-details{
+	padding-top: 100px;
+	height: 30vh;
+	width: 45vw;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	padding-left: 30px;
+}
+
+.orar{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 20vw;
+	border-bottom: 1px solid rgba(128,128,128,0.2);
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#follow-link:visited{
+	color: red;
+}
+
+.contacts ul{
+	list-style-type:none;
+}
+
+.contacts ul li{
+	margin:15px;
+}
+
+.fas{
+	margin-right: 20px;
+}
