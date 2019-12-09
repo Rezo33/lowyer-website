@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="formCss.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis:400,700|Lora&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="form">
@@ -15,14 +16,16 @@
 			</div>
 			<div class="form-info">
 				<form>
-					<label for="name">Nume si Prenume : </label>
-					<input type="text" name="nume si prenume" id="name" required="" placeholder='Introduceti numele si prenumele dvs.'>
-					<label for="Email">Email : </label>
-					<input type="email" name="email" id="Email" required="" placeholder='introduceti posta electronica'>
-					<label for="telefon">Telefon de contact : </label>
-					<input type="number" name="telefon de contact" id="telefon" required="" placeholder='introduceti un nr. de contact'>
-					<label for="mesaj">Textul mesajului : </label>
-					<textarea type="textbox" name="numePrenume" id="name" required="" placeholder='rezumati problema in detalii'> </textarea>
+					<label for="name"></label>
+					<input type="text" name="nume si prenume" id="name" required="" maxlength="50" placeholder='Introduceti numele si prenumele dvs.'>
+					<label for="Email"></label>
+					<input type="email" name="email" id="Email" required=""  maxlength="50" placeholder='introduceti posta electronica'>
+					<label for="telefon"></label>
+					<input type="number" name="telefon de contact" maxlength="50"  id="telefon" required="" placeholder='introduceti un nr. de contact'>
+					<label for="mesaj"></label>
+					<textarea type="textbox" name="descriere" id="mesaj"  maxlength="500" required="" placeholder="rezumati problema in detalii"></textarea>
+					<label for="contact-btn"></label>
+					<input id="contact-btn" type="button" name="contact-btn"  value="Trimite">
 				</form>
 			</div>
 		</div>
